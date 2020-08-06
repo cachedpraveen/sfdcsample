@@ -28,7 +28,7 @@
  * Wrap a binding config to subclass it and aid in resolving target binding
  *   (also leverages the Provider interface to allow for more advanced instantiation)
  **/
-public abstract class di_Binding implements Comparable {
+public abstract class DI_Binding implements Comparable {
 
     public BindingType BindingType {get; private set;}
 
